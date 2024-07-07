@@ -13,4 +13,7 @@ describe('test multiply', function() {
     it('should test 4 by 4', function() {
         assert.equal(multiply(4, 4), 16);
     })
+    it('should test 23 by 45', function() {
+        assert.equal(multiply(23, 45), 23*45);
+    })
 })

@@ -5,6 +5,9 @@ def test_factorial_1():
     assert facto(1) == 1
 
 
+
+
+
 def test_factorial_3():
     assert facto(3) == 6
 

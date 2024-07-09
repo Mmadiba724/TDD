@@ -10,3 +10,4 @@ def fibonacci(n):
         while len(sequence)<n:
             sequence.append(sequence[-1] + sequence[-2])
         return sequence
+ #0, 1, 1, 2, 3, 5, 8, 13, 21

@@ -4,7 +4,7 @@ from tax import calculate_tax
 class TaxCalculator(unittest.TestCase):
     def test_no_tax(self):
         self.assertEqual(calculate_tax(10000), 0)
-
+        
     def test_20_percent_tax(self):
         self.assertEqual(calculate_tax(20000), 1600)
 
